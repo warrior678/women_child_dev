@@ -69,6 +69,30 @@ Outputs:
 - Cleaned dataset
 - Insightful visualizations
 - Summary of key findings and recommendations
+- "Given a Python + SQL codebase that analyzes government datasets on health, education, and budget usage across Indian states—with tools for data cleaning, visualization, and policy insight generation—design and implement an extension that:
+
+1. Adds interactive dashboards (e.g., using Streamlit or Dash) to visualize key metrics such as literacy rates, maternal health indicators, budget allocation over time, and regional comparisons.
+2. Incorporates predictive analytics (e.g., time-series or regression models) to forecast future trends in health outcomes and budget needs.
+3. Includes a summary report generation feature that produces polished PDF or HTML policy briefs, complete with visualization snapshots and key insights.
+4. Ensures modularity by separating data ingestion, preprocessing, analysis, visualization, and reporting stages for maintainability and reusability.
+
+Provide:
+- A high-level architecture outlining components and workflow.
+- Sample code snippets (Python) for one or two key modules—such as setting up a Streamlit dashboard and fitting/predicting with a time-series model.
+- Suggestions on interactive visualizations (like bar charts, choropleth maps, trend lines).
+- "Adapt the existing pipeline to generate mobile-optimized health and budget summary cards, perhaps formatted for WhatsApp or mobile web."
+- "Extend the project to allow users to upload latest government CSV/excel files, automatically process and integrate them into visual dashboards and insights summaries."
+"Add geospatial analytics: create Indian map visualizations (choropleth) for key indicators over time (e.g., maternal health). Also include clustering of states based on similar trends."
+data_ingest.py: handles loading and cleaning
+
+analysis.py: computes trends or forecasts
+
+dashboard.py: serves visuals via Streamlit/Dash
+
+report.py: generates PDF or HTML summaries
+
+"
+
 - 
 
 ---
